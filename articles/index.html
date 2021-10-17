@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="zh">
+    
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="dark">
+    <title>Articles | onism</title>
+
+    
+    
+    
+    <meta property="og:site_name" content="onism blog" />
+    <meta property="og:title" content="Articles | onism"/>
+    <meta itemprop="name" content="Articles | onism" />
+    <meta name="twitter:title" content="Articles | onism" />
+    <meta name="application-name" content="Articles | onism" />
+
+
+    <meta name="description" content="onism&#39;s blog" />
+    <meta name="twitter:description" content="onism&#39;s blog"/>
+    <meta itemprop="description" content="onism&#39;s blog"/>
+    <meta property="og:description" content="onism&#39;s blog" />
+
+    
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+    
+    <link rel="stylesheet" href="/sass/main.min.ab99ff095f832511e24ffb2fba2b51ad473b2f7e9301d674eba2c6c3a6e8bd81.css">
+    
+</head>
+    <script>
+    (function() {
+        const colorSchemeKey = 'ThemeColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.userColorScheme = 'dark';
+        } else {
+            document.documentElement.dataset.userColorScheme = 'light';
+        }
+    })();
+</script>
+
+    <body class="dark">
+        <nav class="navbar">
+    <div class="container">
+        <div class="flex">
+            <div>
+                <a class="brand" href="/">
+                    
+                    <span class="emoji">
+                        😷
+                    </span>
+                    
+                    
+                    onism
+                    </a>
+            </div>
+            <div class="flex">
+                
+                <a href="/articles/" aria-current="page">Articles</a>
+                
+                <button id="dark-mode-button">
+                  <svg class="light" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36"><path fill="#FFD983" d="M30.312.776C32 19 20 32 .776 30.312c8.199 7.717 21.091 7.588 29.107-.429C37.9 21.867 38.03 8.975 30.312.776z"/><path d="M30.705 15.915a1.163 1.163 0 1 0 1.643 1.641a1.163 1.163 0 0 0-1.643-1.641zm-16.022 14.38a1.74 1.74 0 0 0 0 2.465a1.742 1.742 0 1 0 0-2.465zm13.968-2.147a2.904 2.904 0 0 1-4.108 0a2.902 2.902 0 0 1 0-4.107a2.902 2.902 0 0 1 4.108 0a2.902 2.902 0 0 1 0 4.107z" fill="#FFCC4D"/><rect x="0" y="0" width="36" height="36" fill="rgba(0, 0, 0, 0)" /></svg>
+                  <svg class="dark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 36 36"><path fill="#FFD983" d="M16 2s0-2 2-2s2 2 2 2v2s0 2-2 2s-2-2-2-2V2zm18 14s2 0 2 2s-2 2-2 2h-2s-2 0-2-2s2-2 2-2h2zM4 16s2 0 2 2s-2 2-2 2H2s-2 0-2-2s2-2 2-2h2zm5.121-8.707s1.414 1.414 0 2.828s-2.828 0-2.828 0L4.878 8.708s-1.414-1.414 0-2.829c1.415-1.414 2.829 0 2.829 0l1.414 1.414zm21 21s1.414 1.414 0 2.828s-2.828 0-2.828 0l-1.414-1.414s-1.414-1.414 0-2.828s2.828 0 2.828 0l1.414 1.414zm-.413-18.172s-1.414 1.414-2.828 0s0-2.828 0-2.828l1.414-1.414s1.414-1.414 2.828 0s0 2.828 0 2.828l-1.414 1.414zm-21 21s-1.414 1.414-2.828 0s0-2.828 0-2.828l1.414-1.414s1.414-1.414 2.828 0s0 2.828 0 2.828l-1.414 1.414zM16 32s0-2 2-2s2 2 2 2v2s0 2-2 2s-2-2-2-2v-2z"/><circle fill="#FFD983" cx="18" cy="18" r="10"/><rect x="0" y="0" width="36" height="36" fill="rgba(0, 0, 0, 0)" /></svg>
+                </button>
+            </div>
+            </div>
+    </div>
+</nav>
+        <main>
+            
+
+<header>
+    <div class="container">
+        <h1>Articles</h1>
+        <p class="subtitle">Not suitable for all.</p>
+    </div>
+</header>
+
+
+
+<section>
+    <div class="container">
+        <div class="filter-container">
+          
+          
+        </div>
+        <input id="search-query" type="search" placeholder="Search for anything...">
+        
+        <div id="search-results">
+        </div>
+        <section id="articles-list">
+            
+            <section>
+                <h2>2021</h2>
+                <div class="posts">
+                    
+                    <div class="post">
+                        <a href="/2021/10/06/nuclear-bomb/">
+                            <div class="post-row">
+                                <time>Oct 06</time>
+                                <h3>有一袋盐的梦</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2021/07/07/black-and-white/">
+                            <div class="post-row">
+                                <time>Jul 07</time>
+                                <h3>黑与白</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <section>
+                <h2>2020</h2>
+                <div class="posts">
+                    
+                    <div class="post">
+                        <a href="/2020/07/08/a-killer/">
+                            <div class="post-row">
+                                <time>Jul 08</time>
+                                <h3>一个杀手</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <section>
+                <h2>2019</h2>
+                <div class="posts">
+                    
+                    <div class="post">
+                        <a href="/2019/08/05/about-august/">
+                            <div class="post-row">
+                                <time>Aug 05</time>
+                                <h3>八月小记</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2019/05/20/confused/">
+                            <div class="post-row">
+                                <time>May 20</time>
+                                <h3>一段时间没来了</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2019/04/18/best-music/">
+                            <div class="post-row">
+                                <time>Apr 18</time>
+                                <h3>请允许我介绍——最棒的音乐</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2019/04/06/beautiful-things/">
+                            <div class="post-row">
+                                <time>Apr 06</time>
+                                <h3>总有美好，不被理解</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2019/03/27/busy-busy/">
+                            <div class="post-row">
+                                <time>Mar 27</time>
+                                <h3>忙着忙</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2019/03/04/universe/">
+                            <div class="post-row">
+                                <time>Mar 04</time>
+                                <h3>宇宙之大，何其渺小</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2019/02/07/cctv-news/">
+                            <div class="post-row">
+                                <time>Feb 07</time>
+                                <h3>头一次看央视新闻上瘾</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2019/02/06/zhuangbility/">
+                            <div class="post-row">
+                                <time>Feb 06</time>
+                                <h3>装逼给自己看</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2019/01/30/secend-html/">
+                            <div class="post-row">
+                                <time>Jan 30</time>
+                                <h3>终于开始 Web，记一些笔记</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2019/01/24/way-am-i-coming/">
+                            <div class="post-row">
+                                <time>Jan 24</time>
+                                <h3>我为什么来这——感谢这个时代</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2019/01/23/hello-world/">
+                            <div class="post-row">
+                                <time>Jan 23</time>
+                                <h3>Hello World</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2019/01/16/about-vinj/">
+                            <div class="post-row">
+                                <time>Jan 16</time>
+                                <h3>关于「直男」</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <section>
+                <h2>2018</h2>
+                <div class="posts">
+                    
+                    <div class="post">
+                        <a href="/2018/08/11/weird-dream/">
+                            <div class="post-row">
+                                <time>Aug 11</time>
+                                <h3>奇怪的梦</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2018/08/09/2-movies/">
+                            <div class="post-row">
+                                <time>Aug 09</time>
+                                <h3>七月、八月一个人看的两部电影</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2018/08/08/imagine-things-1/">
+                            <div class="post-row">
+                                <time>Aug 08</time>
+                                <h3>一些胡思乱想</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2018/04/30/why-text/">
+                            <div class="post-row">
+                                <time>Apr 30</time>
+                                <h3>论「聊天时文字比语音强在哪里」</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <section>
+                <h2>2017</h2>
+                <div class="posts">
+                    
+                    <div class="post">
+                        <a href="/2017/04/03/light/">
+                            <div class="post-row">
+                                <time>Apr 03</time>
+                                <h3>灯泡</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2017/03/18/song-second-soul/">
+                            <div class="post-row">
+                                <time>Mar 18</time>
+                                <h3>Second Soul - Disco Ensemble</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2017/02/25/strange-dream/">
+                            <div class="post-row">
+                                <time>Feb 25</time>
+                                <h3>做了一个梦</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2017/02/24/lonelyliness/">
+                            <div class="post-row">
+                                <time>Feb 24</time>
+                                <h3>孤独感</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2017/01/08/cywj/">
+                            <div class="post-row">
+                                <time>Jan 08</time>
+                                <h3>春晚</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <section>
+                <h2>2016</h2>
+                <div class="posts">
+                    
+                    <div class="post">
+                        <a href="/2016/12/12/gossip/">
+                            <div class="post-row">
+                                <time>Dec 12</time>
+                                <h3>一堆胡说八道</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/12/11/footprint/">
+                            <div class="post-row">
+                                <time>Dec 11</time>
+                                <h3>脚印</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/12/01/click/">
+                            <div class="post-row">
+                                <time>Dec 01</time>
+                                <h3>「咔嗒」</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/11/06/weibo-app/">
+                            <div class="post-row">
+                                <time>Nov 06</time>
+                                <h3>受不了微博客户端</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/11/06/about-privacy/">
+                            <div class="post-row">
+                                <time>Nov 06</time>
+                                <h3>关于互联网隐私的一点看法</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/10/21/please/">
+                            <div class="post-row">
+                                <time>Oct 21</time>
+                                <h3>拜托</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/10/21/an-ideal/">
+                            <div class="post-row">
+                                <time>Oct 21</time>
+                                <h3>做产品的想法</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/10/21/its-funny/">
+                            <div class="post-row">
+                                <time>Oct 21</time>
+                                <h3>可笑又可怜</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/09/18/train-spotting/">
+                            <div class="post-row">
+                                <time>Sep 18</time>
+                                <h3>猜火车</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/08/06/hedgehog-7/">
+                            <div class="post-row">
+                                <time>Aug 06</time>
+                                <h3>我是一只刺猬 #7</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/08/05/hedgehog-6/">
+                            <div class="post-row">
+                                <time>Aug 05</time>
+                                <h3>我是一只刺猬 #6</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/08/03/hedgehog-5/">
+                            <div class="post-row">
+                                <time>Aug 03</time>
+                                <h3>我是一只刺猬 #5</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/08/02/hedgehog-4/">
+                            <div class="post-row">
+                                <time>Aug 02</time>
+                                <h3>我是一只刺猬 #4</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/08/01/hedgehog-3/">
+                            <div class="post-row">
+                                <time>Aug 01</time>
+                                <h3>我是一只刺猬 #3</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/07/31/hedgehog-2/">
+                            <div class="post-row">
+                                <time>Jul 31</time>
+                                <h3>我是一只刺猬 #2</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/07/29/hedgehog-1/">
+                            <div class="post-row">
+                                <time>Jul 29</time>
+                                <h3>我是一只刺猬 #1</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/06/18/begin-again/">
+                            <div class="post-row">
+                                <time>Jun 18</time>
+                                <h3>重新开始</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/04/17/life-is-like-a-boat/">
+                            <div class="post-row">
+                                <time>Apr 17</time>
+                                <h3>生之如舟</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/04/07/kissing-fish/">
+                            <div class="post-row">
+                                <time>Apr 07</time>
+                                <h3>接吻鱼</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2016/01/29/travel/">
+                            <div class="post-row">
+                                <time>Jan 29</time>
+                                <h3>过客</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <section>
+                <h2>2015</h2>
+                <div class="posts">
+                    
+                    <div class="post">
+                        <a href="/2015/12/04/dream-of-youth/">
+                            <div class="post-row">
+                                <time>Dec 04</time>
+                                <h3>班己体 序&amp;一&amp;二</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2015/09/18/students/">
+                            <div class="post-row">
+                                <time>Sep 18</time>
+                                <h3>学生</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2015/04/25/fast-furious/">
+                            <div class="post-row">
+                                <time>Apr 25</time>
+                                <h3>When I see you again. </h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2015/04/16/question/">
+                            <div class="post-row">
+                                <time>Apr 16</time>
+                                <h3>质问</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2015/04/01/good-or-bad/">
+                            <div class="post-row">
+                                <time>Apr 01</time>
+                                <h3>差生或优生</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2015/03/02/it-is-say/">
+                            <div class="post-row">
+                                <time>Mar 02</time>
+                                <h3>据说</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <section>
+                <h2>2014</h2>
+                <div class="posts">
+                    
+                    <div class="post">
+                        <a href="/2014/11/09/winter/">
+                            <div class="post-row">
+                                <time>Nov 09</time>
+                                <h3>冬日</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/09/22/like/">
+                            <div class="post-row">
+                                <time>Sep 22</time>
+                                <h3>喜欢</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/08/17/past/">
+                            <div class="post-row">
+                                <time>Aug 17</time>
+                                <h3>曾经</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/06/21/now/">
+                            <div class="post-row">
+                                <time>Jun 21</time>
+                                <h3>现在</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/06/04/some-writing/">
+                            <div class="post-row">
+                                <time>Jun 04</time>
+                                <h3>乱写</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/05/10/day/">
+                            <div class="post-row">
+                                <time>May 10</time>
+                                <h3>-</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/04/22/difficult/">
+                            <div class="post-row">
+                                <time>Apr 22</time>
+                                <h3>路难</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/04/06/ma/">
+                            <div class="post-row">
+                                <time>Apr 06</time>
+                                <h3>「马航去的地方」</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/04/04/hello/">
+                            <div class="post-row">
+                                <time>Apr 04</time>
+                                <h3>你好</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/03/10/mh-370/">
+                            <div class="post-row">
+                                <time>Mar 10</time>
+                                <h3>马航</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/02/25/worldly/">
+                            <div class="post-row">
+                                <time>Feb 25</time>
+                                <h3>世俗</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/01/21/egg/">
+                            <div class="post-row">
+                                <time>Jan 21</time>
+                                <h3>子蛋</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/01/19/new-year/">
+                            <div class="post-row">
+                                <time>Jan 19</time>
+                                <h3>年货</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/01/17/hokkaido/">
+                            <div class="post-row">
+                                <time>Jan 17</time>
+                                <h3>「北海道花季」</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/01/15/holiday/">
+                            <div class="post-row">
+                                <time>Jan 15</time>
+                                <h3>假期</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/01/09/encounter/">
+                            <div class="post-row">
+                                <time>Jan 09</time>
+                                <h3>偶遇</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/01/08/uc-yi-fu/">
+                            <div class="post-row">
+                                <time>Jan 08</time>
+                                <h3>爵士</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2014/01/06/lonely/">
+                            <div class="post-row">
+                                <time>Jan 06</time>
+                                <h3>孤独</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <section>
+                <h2>2013</h2>
+                <div class="posts">
+                    
+                    <div class="post">
+                        <a href="/2013/12/30/hard/">
+                            <div class="post-row">
+                                <time>Dec 30</time>
+                                <h3>努力</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2013/12/30/sliver-dragon/">
+                            <div class="post-row">
+                                <time>Dec 30</time>
+                                <h3>「銀の龍の背に乗って」</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2013/12/12/trust/">
+                            <div class="post-row">
+                                <time>Dec 12</time>
+                                <h3>信任</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2013/12/09/show/">
+                            <div class="post-row">
+                                <time>Dec 09</time>
+                                <h3>炫耀</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                    <div class="post">
+                        <a href="/2013/11/11/miss/">
+                            <div class="post-row">
+                                <time>Nov 11</time>
+                                <h3>怀念</h3>
+                            </div>
+                        </a>
+                    </div>
+                    
+                </div>
+            </section>
+            
+        </section>
+    </div>
+</section>
+<script async src="/ts/search.4fa103b17f943aca4e225b2ddc276a97740dff4899d95ec939d2e56b38c8f344.js"></script>
+
+
+        </main>
+        <footer class="footer flex">
+    <section class="container">
+        <nav class="footer-links">
+            
+            <a href="/index.xml">RSS</a>
+            
+        </nav>
+
+        
+    </section>
+    <script defer src="/ts/features.c81551cd4dbef120af278f16966a41142c02be9ff5d6a669be09820fbf047456.js" 
+    data-enable-footnotes="true"
+    ></script>
+</footer>
+
+    </body>
+</html>
